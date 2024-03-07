@@ -1,0 +1,11 @@
+<!--
+<form class="search-form" >
+    <input type="text" name="descricao" >
+    <button type="submit" (click)="pesquisar()"><i class="fa-solid fa-magnifying-glass"></i></button>
+</form>
+-->
+<form class="search-form" >
+    <input type="text" name="descricao" [(ngModel)]="descricao">
+    <button type="submit" (click)="pesquisar($event)"><i class="fa-solid fa-magnifying-glass"></i></button>
+
+</form>
