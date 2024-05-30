@@ -16,12 +16,14 @@
     color: var(--blue);
     color: blue;
     font-size:60px;
+    text-decoration: none;
 }
 
 .main-header__title--orange {
     color: var(--orange);
     color: orange;
     font-size:60px;
+    text-decoration: none;
 }
 
 .main-header__menu ul {
